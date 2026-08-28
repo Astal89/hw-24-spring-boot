@@ -1,15 +1,15 @@
 package org.skypro.skyshop.exception;
 
 public class ShopError {
-    private final int code;
+    private final String code;
     private final String message;
 
-    public ShopError(int code, String message) {
+    public ShopError(String code, String message) {
         this.code = code;
         this.message = message;
     }
 
-    public int getCode() {
+    public String getCode() {
         return code;
     }
 
